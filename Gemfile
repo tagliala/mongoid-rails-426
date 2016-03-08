@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 gem 'mongoid', '~> 5.1.0'
-gem 'rails_stdout_logging'
+gem 'rails_stdout_logging', github: 'miyucy/rails_stdout_logging', branch: 'invoke_after_initialize'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
